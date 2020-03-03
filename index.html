@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Flood Brothers Comission Calculator</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="title">Flood Brothers Comission Calculator</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-gray">
+            <div class="col">
+                <div class="head">INVOICE</div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Invoice Amount</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">10% Operational Cost</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Total Meterial Expense + 10%</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Meterial Expense Reimbursement</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Total Labor Expense + 30%</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Total Subcontractor Expense</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Total Permit Expense</label>
+                    <input type="number" class="form-control" placeholder="Enter number">                    
+                </div>
+                <div class="form-group">
+                    <label for="">Credit Card Service Charge (5% of Invoice Amount)</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                         Yes
+                        </label>
+                      </div>  
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          No
+                        </label>
+                      </div>   
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Technicians 30% Comission of Net Profit</label>
+                        <input type="number" class="form-control" placeholder="Enter number">                    
+                    </div>
+                               
+                </div>
+
+
+            </div>
+
+            <div class="col">
+               <div class="head">MATERIAL EXPENSES</div>
+               <table class="table table-bordered">
+                   <tr>
+                       <th>SUPPLIER</th>
+                       <th>AMOUNT</th>
+                       <th>REIMBURSE</th>
+                   </tr>
+                   <tr>
+                       <td>4</td>
+                       <td>345</td>
+                       <td>34</td>
+                   </tr>
+                   <tr>
+                    <td>4</td>
+                    <td>345</td>
+                    <td>34</td>
+                </tr>
+               </table>
+            </div>
+            <div class="col">
+                <div class="head">LABOR EXPENSES</div>
+               <table class="table table-bordered">
+                   <tr>
+                       <th>LABORER</th>
+                       <th>RATE</th>
+                       
+                   </tr>
+                   <tr>
+                       <td>4</td>
+                       <td>345</td>                       
+                   </tr>
+                   <tr>
+                    <td>4</td>
+                    <td>345</td>                    
+                </tr>
+               </table>
+            </div>
+            <div class="col">
+                <div class="head">SUBCONTRACTOR EXPENSES</div>
+               <table class="table table-bordered">
+                   <tr>
+                       <th>SUBCONTRACTOR</th>
+                       <th>AMOUNT</th>                       
+                   </tr>
+                   <tr>
+                       <td>4</td>
+                       <td>345</td>                       
+                   </tr>
+                   <tr>
+                    <td>4</td>
+                    <td>345</td>                    
+                </tr>
+               </table>
+            </div>
+            <div class="col-md-3">
+                <div class="head">PERMIT EXPENSES</div>
+               <table class="table table-bordered">
+                   <tr>
+                       <th>PERMIT TYPE</th>
+                       <th>AMOUNT</th>                       
+                   </tr>
+                   <tr>
+                       <td>4</td>
+                       <td>345</td>                       
+                   </tr>
+                   <tr>
+                    <td>4</td>
+                    <td>345</td>                    
+                </tr>
+               </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

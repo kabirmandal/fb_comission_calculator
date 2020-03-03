@@ -1,0 +1,17 @@
+body{
+   
+}
+.title{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 3px;
+    font-size: large;
+    text-transform: uppercase;
+}
+.head{
+    text-align: center;;
+}
+td{
+    text-align:right;
+}
